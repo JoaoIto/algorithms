@@ -5,4 +5,4 @@
 ### Take advantage of all the problems below, with practical situations for all types! These situations will be given in JavaScript, have fun and learn! ;)
 
 # 
-<img src="./assets/algorithmsJS.jpg"> 
+
