@@ -1,4 +1,4 @@
-# Algorithms
+# Algorithms 📒
 
 ### - Algorithms are finite sequences of logical steps to solve a problem and that can represent both common problems in programming and any situation involving logical steps!
 
