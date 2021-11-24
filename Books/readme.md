@@ -1,4 +1,4 @@
-# Books 📘
+# Books
 
  Let's say we get a gift card at a bookstore for X, say, fifty reais, one hundred reais, and we want to get that gift card in programming books...
 
@@ -28,4 +28,6 @@ Oque podemos comprar com o nosso dinheiro? Para conseguirmos saber isso, temos q
 <br>
 <img src="./img/console.jpeg"> 
 
-#
+# 
+## Ok, but...
+

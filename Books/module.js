@@ -1,28 +1,28 @@
 const priceBook = [
   {
-    title: "JavaScript",
-    price: 25
+    titulo: "JavaScript",
+    preço: 25,
   },
   {
-    title: "PHP",
-    price: 15
+    titulo: "PHP",
+    preço: 15,
   },
   {
-    title: "Java",
-    price: 30
+    titulo: "Java",
+    preço: 30,
   },
   {
-    title: "Elixir",
-    price: 50
+    titulo: "Elixir",
+    preço: 50,
   },
   {
-    title: "Go",
-    price: 45
+    titulo: "Go",
+    preço: 45,
   },
   {
-    title: "Python",
-    price: 20
-  }
+    titulo: "Python",
+    preço: 20,
+  },
 ];
 
 module.exports = priceBook;
