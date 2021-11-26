@@ -2,8 +2,8 @@
 
  Let's say we get a gift card at a bookstore for X, say, fifty reais, one hundred reais, and we want to get that gift card in programming books...
 
-Nós entramos no site da livraria, procuramos por livro de programação, e recebemos algumas opções. Só que o site da livraria trouxe para nós essas opções – um livro de JavaScript (25,00), um livro de PHP (R$ 15,00), um livro de Java (R$ 30,00), Elixir (50,00), Go (R$ 45,00) e   Python (R$ 20,00) – que não estão em nenhuma ordem particular que consigamos ver.
-Oque podemos comprar com o nosso dinheiro? Para conseguirmos saber isso, temos que saber quais são os livros mais baratos, como eu consigo somar etc.
+We went to the bookstore's website, looked for a programming book, and got some options. But the bookstore website brought us these options – a JavaScript book (U$25.00), a PHP book (U$ 15.00), a Java book (U$ 30.00), Elixir (U$50.00), Go (U$45.00) and Python (U$20.00) – which are not in any particular order that we can see.
+What can we buy with our money? In order for us to know this, we have to know which are the cheapest books, how do I add it up, etc.
 
 # 
 
