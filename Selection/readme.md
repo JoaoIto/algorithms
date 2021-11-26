@@ -1,4 +1,4 @@
-# Refactoring the function 📑
+# Selection Sort 📑
 
 We've already seen that sometimes it's worth sorting a list to get the first two, the first, the top three, and so on. So what we're going to do now is build in the code more or less the same steps we did before but now reworking it and doing it with a selection sort.
 
