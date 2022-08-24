@@ -2,27 +2,27 @@ const { edGalho, edFolha } = require("./module");
 
 function algorithm(lista1, lista2) {
   // Criando lista final;
-  let listaFinal = [];
+  let finalList = [];
   // Variável de controle de índice de cada lista;
-  let posicaoAtualLista1 = 0;
-  let posicaoAtualLista2 = 0;
+  let list1Position = 0;
+  let list2Position = 0;
   //  Variável de controle de índice para lista final;
   let atual = 0;
 
   while (
-    posicaoAtualLista1 < lista1.length &&
-    posicaoAtualLista2 < lista2.length
+    indexList1 < lista1.length &&
+    indexList2 < lista2.length
   ) {
       /// Variável de identificação do preço de cada índice atual do array...
-    let produtoAtualLista1 = lista1[posicaoAtualLista1];
-    let produtoAtualLista2 = lista2[posicaoAtualLista2];
+    let indexList1 = lista1[list1Position];
+    let indexList2 = lista2[list2Position];
 
-    if (produtoAtualLista1.preco < produtoAtualLista2.preco) {
-      listaFinal[atual] = produtoAtualLista1;
-      posicaoAtualLista1++;
+    if (indexList1.price < indexList2.price) {
+      finalList[atual] = indexList1;
+      list1Position++;
     } else {
-      listaFinal[atual] = produtoAtualLista2;
-      posicaoAtualLista2++;
+      finalList[atual] = indexList2;
+      list2Position++;
     }
 
     atual++;
@@ -35,19 +35,19 @@ function algorithm(lista1, lista2) {
 separadamente, para que quando o outro while for cancelado, ele 
 em si olhará para cada lista separadamente para que consigamos 
 controlar e ordenar os dois para a lista final... */
-  while (posicaoAtualLista1 < lista1.length) {
-    listaFinal[atual] = lista1[posicaoAtualLista1];
-    posicaoAtualLista1++;
+  while (list1Position < lista1.length) {
+    finalList[atual] = lista1[list1Position];
+    list1Position++;
     atual++;
   }
 
-  while (posicaoAtualLista2 < lista2.length) {
-    listaFinal[atual] = lista2[posicaoAtualLista2];
-    posicaoAtualLista2++;
+  while (list2Position < lista2.length) {
+    finalList[atual] = lista2[list2Position];
+    list2Position++;
     atual++;
   }
 
-  return listaFinal;
+  return finalList;
 }
 
 console.log(algorithm(edGalho, edFolha));
