@@ -1,9 +1,13 @@
 # Diference in Algorithms methods...
->  If you want to know more about, see: [https://www.programiz.com/dsa/selection-sort](https://www.programiz.com/dsa/selection-sort) 
->
+**If you want to know more about, see:** 
 
->[https://www.programiz.com/dsa/insertion-sort](https://www.programiz.com/dsa/insertion-sort)
+>[Selection Sort()](https://www.programiz.com/dsa/selection-sort) 
 
+> [Inserction Sort()](https://www.programiz.com/dsa/insertion-sort)
+
+
+
+--- 
 ### `Selection Sort:`
 
 
