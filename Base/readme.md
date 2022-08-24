@@ -3,7 +3,6 @@
 **We'll start working with an algorithm that will work with joining two arrays already ordered into another final array, thus making it a higher ordered array! It is a list of books we will start distinct for each, and so we will order from the lowest to the highest price of each book...**
 
 ---
-
 ```jsx
 // Module
 const edFolha = [
