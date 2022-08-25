@@ -5,7 +5,6 @@
 **Now let's see in code?**
 
 ---
-
 As soon as we begin a repeating list, in which the count index of the current array, it as long as it is smaller than the main size itself, it will, meanwhile, exchange parts with the help of conditional terms (if else).
 
 Just doing the push action, for that part that contain the lower price, making them ordered! Okay, now we've done the logical part, but we need to concatenate this into both parts, saying that as soon as we're done, he needs to return to the concatenation of these two parts! Using the base concatenation function, called concat( ), which plays the role of joining the two into smaller parts and delivering the result in the main array!
