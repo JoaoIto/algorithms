@@ -1,40 +1,40 @@
 const lista = require("../module");
 const trocaLugar = require("../troca")
 
-function quickSort(array, esquerda, direita){
+function quickSort(array, left, right){
     if(array.length > 1){
-        let indiceAtual = particiona(array, esquerda, direita);
-        if(esquerda < indiceAtual - 1){
-            quickSort(array, esquerda, indiceAtual - 1);
+        let indexI = close(array, left, right);
+        if(left < indexI - 1){
+            quickSort(array, left, indexI - 1);
         };
-        if(indiceAtual < direita){
-            quickSort(array, indiceAtual, direita);
+        if(indexI < right){
+            quickSort(array, indexI, right);
         };
     };
     return array;
 };
 
-function particiona(array, esquerda, direita){
-    let pivo =  array[Math.floor((esquerda + direita)/ 2)];
-    let atualEsquerda = esquerda;
-    let atualDireita = direita;
+function close(array, left, right){
+    let index =  array[Math.floor((left + right)/ 2)];
+    let leftI = left;
+    let rightI = right;
 
-    while(atualEsquerda <= atualDireita){
-        while(array[atualEsquerda].preco < pivo.preco){
-            atualEsquerda++;
+    while(leftI <= rightI){
+        while(array[leftI].price < index.price){
+            leftI++;
         };
 
-        while(array[atualDireita].preco > pivo.preco){
-            atualDireita--;
+        while(array[rightI].price > index.price){
+            rightI--;
         };
 
-        if(atualEsquerda <= atualDireita){
-            trocaLugar(array, atualEsquerda, atualDireita);
-            atualEsquerda++;
-            atualDireita--;
+        if(leftI <= rightI){
+            trocaLugar(array, leftI, rightI);
+            leftI++;
+            rightI--;
         };
     };
-    return atualEsquerda;
+    return leftI;
 };
 
 console.log(quickSort(lista, 0, lista.length - 1));
