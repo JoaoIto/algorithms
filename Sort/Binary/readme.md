@@ -61,5 +61,4 @@ console.log(search(lista, 0, lista.length - 1, 20));
 // Console:
 2
 ```
-
 ---
