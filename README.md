@@ -6,3 +6,4 @@
 
 --- 
 
+<img src="https://1.bp.blogspot.com/-HLQM-FhaZgY/XvSuY1D0J-I/AAAAAAAAAwc/hqZB5Ivq_SckLwRmHmk1amHA7GDHszY7ACK4BGAsYHg/w1200-h630-p-k-no-nu/JavaScript-logo.png#vitrinedev">
